@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
+    private Animator animator;
     private Transform playerTransform;
     private Vector2 movementInput;
     [SerializeField] private float movementSpeed;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         playerTransform = GetComponent<Transform>();
+        animator = GetComponent<Animator>();
     }
 
     private void OnMove(InputValue inputValue)
@@ -31,6 +33,8 @@ public class PlayerController : MonoBehaviour
         {
             playerTransform.localScale = new Vector2(Mathf.Sign(movementInput.x), 1);
         }
+
+        animator.SetFloat("speed", movementInput.magnitude);
     }
 
     private void FixedUpdate()

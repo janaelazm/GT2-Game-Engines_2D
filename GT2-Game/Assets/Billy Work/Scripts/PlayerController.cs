@@ -29,9 +29,17 @@ public class PlayerController : MonoBehaviour
     {
        
         // flip player sprites when moving left or right
-        if (movementInput.x != 0)
+        if (movementInput.x < 0 )
         {
-            playerTransform.localScale = new Vector2(Mathf.Sign(movementInput.x), 1);
+            playerTransform.localScale = new Vector2(-Mathf.Abs(playerTransform.localScale.x), playerTransform.localScale.y);
+        }
+        else if(movementInput.x > 0)
+        {
+            playerTransform.localScale = new Vector2(Mathf.Abs(playerTransform.localScale.x), playerTransform.localScale.y);
+        }
+        else
+        {
+            playerTransform.localScale = new Vector2(playerTransform.localScale.x, playerTransform.localScale.y);
         }
 
         animator.SetFloat("speed", movementInput.magnitude);

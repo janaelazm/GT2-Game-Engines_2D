@@ -4,28 +4,17 @@ using UnityEngine;
     {
 
     [field: SerializeField] public StateHandler MainMenuHandler { get; private set; }
-    [field: SerializeField] public StateHandler SelectLevelHandler { get; private set; }
-    [field: SerializeField] public StateHandler GameHandler { get; private set; }
-    [field: SerializeField] public StateHandler PauseHandler { get; private set; }
-    [field: SerializeField] public StateHandler DeathHandler { get; private set; }
+    [field: SerializeField] public StateHandler StartGameHandler { get; private set; }  
+    [field: SerializeField] public StateHandler PlayerDeadHandler { get; private set; }
 
     private void Awake() 
     {
 
-        // Main Menu -> Select Level
-        AddTransition(MainMenuHandler, SelectLevelHandler, MenuTransitions.LevelSelectionSelected);
-        
-        // Select Level -> Game
-        AddTransition(SelectLevelHandler, GameHandler, MenuTransitions.LevelSelected); 
-
-        // Game -> Pause
-        AddTransition(GameHandler, PauseHandler, MenuTransitions.GamePaused);
-
-        // Pause -> Game
-        AddTransition(PauseHandler, GameHandler, MenuTransitions.GameContinued);
+        // Main Menu -> Start Game
+        AddTransition(MainMenuHandler, StartGameHandler, MenuTransitions.StartGame);
 
         // Game -> Death
-        AddTransition(GameHandler, DeathHandler, MenuTransitions.PlayerDead);
+        AddTransition(StartGameHandler, PlayerDeadHandler, MenuTransitions.PlayerDead);
 
     }
 }

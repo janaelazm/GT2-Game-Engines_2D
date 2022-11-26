@@ -1,10 +1,7 @@
 public enum MenuTransitions 
 {
+    StartGame,
     MainMenuSelected,
-    LevelSelectionSelected,
-    LevelSelected,
-    GamePaused,
-    GameContinued,
     PlayerDead
 
 }

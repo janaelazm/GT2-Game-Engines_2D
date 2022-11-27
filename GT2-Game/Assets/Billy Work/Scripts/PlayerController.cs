@@ -5,7 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody rb;
+    
+    private Rigidbody2D rb2;
     private Animator animator;
     private Transform playerTransform;
     private Vector2 movementInput;
@@ -14,7 +15,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb2 = GetComponent<Rigidbody2D>();
         playerTransform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
     }
@@ -47,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = movementInput * (movementSpeed * Time.deltaTime);
+        rb2.velocity = movementInput * (movementSpeed * Time.deltaTime);
         
     }
 }

@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 6d3d050ed7b3af742ae980bf4863b9a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 688
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc745bb8eea529f49b131b89b5f662f4
+      internalID: -1047836767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 688
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa4ad3104ead454aa7825f57e733842
+      internalID: 1992389230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 688
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818fd9f2a21b7fc4b9f095a154072e94
+      internalID: 1041856376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 688
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddae123478065341bc5501696782db4
+      internalID: -1802416139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 688
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b36b25c78e8ce47a387f48d0676244
+      internalID: 701699171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 688
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9a1ed62402f1e4b9cf52dafb67c61b
+      internalID: 1035178448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 688
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ee5f1ce4852b4c9601d92ed0e7c60
+      internalID: -1850450959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 688
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8532813cd8eee1747bf7881e1b9580de
+      internalID: -859730369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 516
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abc20aeea12c2f41ba6bfaa995ad683
+      internalID: 1280601764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 516
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ef039e41e7b2a4499fe30c94fb60ef
+      internalID: -1563030222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 516
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d2a5e2bf3e7940b136d45b9d144da
+      internalID: -817715773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 516
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f764d9a8a27ccb469595994370a0bac
+      internalID: 1916276136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 516
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3912469b2a68aa41a1fbc8ec445f119
+      internalID: 373012318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 516
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424865f7259b2c646937304cbeb70532
+      internalID: 505082259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 516
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55629c8746f09f642b3a194375bc75af
+      internalID: 1879668464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 516
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6338486db66568c44861aca06836a0a8
+      internalID: 1309342167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 344
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa5a01a1e68aed4788fc9ce7b86383c
+      internalID: -584366874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a52fdf346a1c5459d505d367f6a55d
+      internalID: 2063402000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742076ebbe9f33247ba9eaa8ca318d26
+      internalID: -376007689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df87d691e3bd53f4585b3c1ee976ad32
+      internalID: -1606047560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_20
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7691b4ca52e4974ea93c38c26b8ff64
+      internalID: 1961952791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562048d53770bb44ba2049f90e18ed11
+      internalID: 1584808045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_22
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59265cc68113534bb0f6024b2dbc99e
+      internalID: -1248591671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 344
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9bcb7f48a01b4fb1ce718ea3235aa
+      internalID: -1073187319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e93ba442b462749b009dc5c1490004
+      internalID: -377891660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 172
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e269e3123b19c84b8020f6b5376bf13
+      internalID: -593547634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 172
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ac46e22939c714aa7b7a5c527d092d
+      internalID: -129949861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_27
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 172
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefb513951d02ed4f912dfabaf55e016
+      internalID: 6073982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 172
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa39fa84876c1174793556b85678f0e4
+      internalID: -788728796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 172
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47312b1a72cfae4280cf07ade3d13b2
+      internalID: -1185421540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 172
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d0d153dd1cd34fa455f0f120f6471
+      internalID: 998278179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 172
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7bc9df5e3347b4db74502367b69c64
+      internalID: 116097783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01eb4aa93fdbcd4ab9f98f2ed6bedd2
+      internalID: 2052267498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8321c58c3c98d443a6c677a108d6770
+      internalID: 1934959936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac90ce19707b1004f80cd20f393ca1f6
+      internalID: 1695698853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ed73af99f1ef4cbc9b8fc20706258
+      internalID: -1474569505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_idle_36
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f52b36c87d303468b9f2e90a8b967c
+      internalID: 647106735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3460ebe6c67d8ac428b206b8bf0dfe7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheet_TheGurl_idle_34: 1695698853
+      SpriteSheet_TheGurl_idle_28: -788728796
+      SpriteSheet_TheGurl_idle_4: 701699171
+      SpriteSheet_TheGurl_idle_18: -376007689
+      SpriteSheet_TheGurl_idle_10: -817715773
+      SpriteSheet_TheGurl_idle_9: -1563030222
+      SpriteSheet_TheGurl_idle_12: 373012318
+      SpriteSheet_TheGurl_idle_31: 116097783
+      SpriteSheet_TheGurl_idle_16: -584366874
+      SpriteSheet_TheGurl_idle_27: 6073982
+      SpriteSheet_TheGurl_idle_30: 998278179
+      SpriteSheet_TheGurl_idle_0: -1047836767
+      SpriteSheet_TheGurl_idle_17: 2063402000
+      SpriteSheet_TheGurl_idle_15: 1309342167
+      SpriteSheet_TheGurl_idle_35: -1474569505
+      SpriteSheet_TheGurl_idle_5: 1035178448
+      SpriteSheet_TheGurl_idle_14: 1879668464
+      SpriteSheet_TheGurl_idle_33: 1934959936
+      SpriteSheet_TheGurl_idle_1: 1992389230
+      SpriteSheet_TheGurl_idle_2: 1041856376
+      SpriteSheet_TheGurl_idle_3: -1802416139
+      SpriteSheet_TheGurl_idle_25: -593547634
+      SpriteSheet_TheGurl_idle_21: 1584808045
+      SpriteSheet_TheGurl_idle_23: -1073187319
+      SpriteSheet_TheGurl_idle_26: -129949861
+      SpriteSheet_TheGurl_idle_29: -1185421540
+      SpriteSheet_TheGurl_idle_19: -1606047560
+      SpriteSheet_TheGurl_idle_6: -1850450959
+      SpriteSheet_TheGurl_idle_8: 1280601764
+      SpriteSheet_TheGurl_idle_32: 2052267498
+      SpriteSheet_TheGurl_idle_7: -859730369
+      SpriteSheet_TheGurl_idle_20: 1961952791
+      SpriteSheet_TheGurl_idle_36: 647106735
+      SpriteSheet_TheGurl_idle_13: 505082259
+      SpriteSheet_TheGurl_idle_24: -377891660
+      SpriteSheet_TheGurl_idle_22: -1248591671
+      SpriteSheet_TheGurl_idle_11: 1916276136
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

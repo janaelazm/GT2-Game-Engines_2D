@@ -10,6 +10,8 @@ public class EnergyBar : MonoBehaviour
     public Gradient gradient;
     [SerializeField] private Image fill;
     [SerializeField] private DragAndDrop _dragAndDrop;
+
+    [SerializeField] private CanvasGroup deathScreen;
     public int currentEnergy;
 
     // Start is called before the first frame update
@@ -26,6 +28,11 @@ public class EnergyBar : MonoBehaviour
         if (currentEnergy == 0)
         {
             Debug.Log("Game Over");
+            Time.timeScale = 0;
+            deathScreen.alpha = 1;
+            deathScreen.interactable = true;
+            deathScreen.blocksRaycasts = true;  
+            
         }
     }
 

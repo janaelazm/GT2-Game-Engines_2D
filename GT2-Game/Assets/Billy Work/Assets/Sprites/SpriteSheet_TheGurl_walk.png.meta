@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 4182ff57b9db9144db4b13398b8d6555
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 693
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1c604a17960442a726a04a38e87e7
+      internalID: 755574312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 693
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e469a2e9a21387f44b63818fddfd7aa4
+      internalID: 19285605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 693
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3cbde4902d4344db7806636cef96d5
+      internalID: -19091529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 693
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fa9ec20276cf049888622476de5971
+      internalID: -874765923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 693
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f13b213ee57dbc4ba8e504701ae8243
+      internalID: 1623075858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 693
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ff91f54b692ec4bbb0d40164118538
+      internalID: -1658948296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 693
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c2c140eee73a4d97c19ce9d4a0a8a
+      internalID: -303672976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 693
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab7a0d924929914bbec7e5500080fe7
+      internalID: -1608217799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 520
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f95c3217a308b459a75ef9e7f3cb44
+      internalID: 1572032931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 520
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b49fe33396ec842bb53634bc863c88
+      internalID: -2143670633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 520
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42886e995254231478667d5b524e5a04
+      internalID: -1446501673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 520
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037107e70257bc946b55b78be0fb28fc
+      internalID: -573920928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 520
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa3d5064b6d69e4885c0d2c2619d6c8
+      internalID: -1201977056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 520
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352ffbb7e76bcbd47bb0d9bbee5b926b
+      internalID: 151346932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 520
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f54002ddb7757943989c2b15e7e825d
+      internalID: -1795882650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 520
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d4c6e93ad478b4cb8afa2f22f9ed1a
+      internalID: -1591369017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 347
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8e8e77db487e54d90ac468f895bedf
+      internalID: 1539314156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 347
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693e9415094ffb4188a4652843d818b
+      internalID: 1125044254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 347
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d3fe2c11df0740b87324ad12218e3
+      internalID: 1490339523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 347
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c333de53f3a27ec4d93a78e1a2c51ef4
+      internalID: 571754536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_20
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 346
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bdbd41eede5a84c9f0d36487987040
+      internalID: 207151384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 346
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ddbb2421fd31248a2d0f8c946bea64
+      internalID: 980902497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_22
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 346
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb86ded6a6066c44a97fc5654f74e74
+      internalID: 1791319861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 346
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd52018a2a0cfb747a6b44427b86cc25
+      internalID: 503364783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 173
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ed1ebec035eb44a8ef9047f11e12f
+      internalID: -1091505090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 174
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ae2e511b4cfe54286b796cf28c43d0
+      internalID: 773917051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 173
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e63dd83673e5d4db87398f8a828bc3
+      internalID: -1795147186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_27
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 174
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b151f4e27c7d04aae508d42ff2e8f7
+      internalID: 616577147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 173
+        width: 89
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3524cdc178c3243a189cd8fa0fdada
+      internalID: -280239081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 174
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d0591474948f4aa1e42b49329c15c
+      internalID: 1685070671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 173
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0690883aa8c35b14c8ab9b1bb21a76e3
+      internalID: -1908492995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 174
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42708140f2a23304ab8d5fb50282d427
+      internalID: -479910047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4bd198af8e9f1498fe615e18646230
+      internalID: -780291106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df64426adbde134cbf835a0f4c682c5
+      internalID: 243447166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2e4ce9c9b6e1b40b5eccc0a006b5e1
+      internalID: -1087010962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0ab744fb0ee5c4a8167fbb15032979
+      internalID: 1772177902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_TheGurl_walk_36
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50c419f1f98adb419facd309d6c9afd
+      internalID: 600233346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1dee99546fdf0b94aa49bd8cf779091a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheet_TheGurl_walk_35: 1772177902
+      SpriteSheet_TheGurl_walk_34: -1087010962
+      SpriteSheet_TheGurl_walk_22: 1791319861
+      SpriteSheet_TheGurl_walk_24: -1091505090
+      SpriteSheet_TheGurl_walk_27: 616577147
+      SpriteSheet_TheGurl_walk_26: -1795147186
+      SpriteSheet_TheGurl_walk_9: -2143670633
+      SpriteSheet_TheGurl_walk_31: -479910047
+      SpriteSheet_TheGurl_walk_0: 755574312
+      SpriteSheet_TheGurl_walk_12: -1201977056
+      SpriteSheet_TheGurl_walk_20: 207151384
+      SpriteSheet_TheGurl_walk_19: 571754536
+      SpriteSheet_TheGurl_walk_15: -1591369017
+      SpriteSheet_TheGurl_walk_16: 1539314156
+      SpriteSheet_TheGurl_walk_25: 773917051
+      SpriteSheet_TheGurl_walk_18: 1490339523
+      SpriteSheet_TheGurl_walk_28: -280239081
+      SpriteSheet_TheGurl_walk_30: -1908492995
+      SpriteSheet_TheGurl_walk_10: -1446501673
+      SpriteSheet_TheGurl_walk_11: -573920928
+      SpriteSheet_TheGurl_walk_14: -1795882650
+      SpriteSheet_TheGurl_walk_33: 243447166
+      SpriteSheet_TheGurl_walk_29: 1685070671
+      SpriteSheet_TheGurl_walk_8: 1572032931
+      SpriteSheet_TheGurl_walk_32: -780291106
+      SpriteSheet_TheGurl_walk_13: 151346932
+      SpriteSheet_TheGurl_walk_6: -303672976
+      SpriteSheet_TheGurl_walk_21: 980902497
+      SpriteSheet_TheGurl_walk_17: 1125044254
+      SpriteSheet_TheGurl_walk_36: 600233346
+      SpriteSheet_TheGurl_walk_4: 1623075858
+      SpriteSheet_TheGurl_walk_23: 503364783
+      SpriteSheet_TheGurl_walk_3: -874765923
+      SpriteSheet_TheGurl_walk_2: -19091529
+      SpriteSheet_TheGurl_walk_7: -1608217799
+      SpriteSheet_TheGurl_walk_5: -1658948296
+      SpriteSheet_TheGurl_walk_1: 19285605
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

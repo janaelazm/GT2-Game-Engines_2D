@@ -22,7 +22,7 @@ public class StoveSelector : MonoBehaviour, IDropHandler
     private void Start()
     {
         //automatically assign the energy bar
-        _energyBar = EnergyBar.FindObjectOfType<EnergyBar>();
+        _energyBar = FindObjectOfType<EnergyBar>();
     }
 
     // Update is called once per frame

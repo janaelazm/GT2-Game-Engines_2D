@@ -255,12 +255,12 @@ TextureImporter:
       name: House asset main_7
       rect:
         serializedVersion: 2
-        x: 80
+        x: 81
         y: 276
         width: 48
         height: 48
       alignment: 9
-      pivot: {x: 0.65, y: 0.2}
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,7 +344,7 @@ TextureImporter:
         width: 20
         height: 48
       alignment: 9
-      pivot: {x: -0.6, y: 0}
+      pivot: {x: -0.6, y: -0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,9 +571,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 148
-        width: 48
-        height: 48
+        y: 149
+        width: 47
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,12 +718,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 336
-        y: 84
+        y: 85
         width: 48
-        height: 48
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -871,7 +871,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      House asset main_23: 6146373
+      House asset main_0: 1213716485
       House asset main_30: -832970990
       House asset main_9: 267601782
       House asset main_35: 1086366923
@@ -906,7 +906,7 @@ TextureImporter:
       House asset main_24: 438614397
       House asset main_13: 952782103
       House asset main_29: 2085524225
-      House asset main_0: 1213716485
+      House asset main_23: 6146373
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

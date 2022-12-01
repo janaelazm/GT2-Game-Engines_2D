@@ -31,5 +31,5 @@ Software
 * Unity Version 2021.3.11f1
 
 ### Credits
-* Player Sprites by ilmania https://ilmania.itch.io/the-gurl-platformer-character
+* Player sprites by ilmania https://ilmania.itch.io/the-gurl-platformer-character
 * 

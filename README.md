@@ -2,10 +2,10 @@
 
 
 ## Description
+Energy saver is a game about saving energy. The game is designed around the various way we can save energy in everyday lives. Player will need to complete various minigame tasks before they run out of energy.
 
-
-### Genre & Art Style
-
+### Genre
+2D Top Down
 
 ## Gameplay
 

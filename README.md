@@ -20,6 +20,8 @@ Energy saver is a game about saving energy. The game is designed around the vari
 
 
 ### Team
-
+Jana, Batul, Lucas, Billy Julian Lesmana
 
 ### Built With
+Software
+* Unity Version 2021.3.11f1

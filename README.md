@@ -16,10 +16,12 @@ Player can move around the room with WASD and interact with objects with left mo
 ![player movement 2d](https://user-images.githubusercontent.com/63732813/205146899-caf0f507-bd19-4f93-a494-ecbde1316adf.gif)
 
 ### Energy Gauge
-
+The energy gauge will decrease the longer the game goes on. The goal of the game is to complete all the tasks before the energy gauge reaches zero.
 
 ### Tasks Minigames
-
+The player needs to complete various minigames before the energy gauge reaches zero to win the game. The various minigames that the player need to complete are:
+* Turning off plug sockets
+* 
 
 ### Team
 Jana, Batul Iraki, Lucas, Billy Julian Lesmana

@@ -22,7 +22,7 @@ Player can move around the room with WASD and interact with objects with left mo
 
 
 ### Team
-Jana, Batul, Lucas, Billy Julian Lesmana
+Jana, Batul Iraki, Lucas, Billy Julian Lesmana
 
 ### Built With
 Software

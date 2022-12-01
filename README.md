@@ -32,4 +32,8 @@ Software
 
 ### Credits
 * Player sprites by ilmania https://ilmania.itch.io/the-gurl-platformer-character
-* 
+* Lamp Sprites by JUHAX GAMES https://jj-assets.itch.io/2d-lights-pack 
+* Bathroom, Couch & Armchair Furniture Sprites by SpriteElf https://spriteelf.itch.io/
+* Backyard Top-Down Tileset by Kittens and Elves at Work https://assetstore.unity.com/packages/2d/environments/backyard-top-down-tileset-53854
+* House Tile Set by @maschiaT https://maschiat.itch.io/house-asset-pack
+

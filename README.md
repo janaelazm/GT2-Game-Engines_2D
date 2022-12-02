@@ -7,10 +7,11 @@ Energy saver is a game about saving energy. The game is designed around the vari
 ### Genre
 2D Top Down
 
-## Gameplay
 
 ## Map
 The map was created by using the GridMap system using assets taken from various sources(credits at the bottom).
+
+## Gameplay
 
 ### Player 
 Player can move around the room with WASD and interact with objects with left mouse click.

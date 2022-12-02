@@ -23,6 +23,8 @@ Player can move around the room with WASD and interact with objects with left mo
 ### Energy Gauge
 The energy gauge will decrease the longer the game goes on. The goal of the game is to complete all the tasks before the energy gauge reaches zero.
 
+![Energy gauge](https://user-images.githubusercontent.com/63732813/205330954-7e4a5107-fb23-47ee-a02f-7f8092eb770b.gif)
+
 ### Tasks Minigames
 The player needs to complete various minigames before the energy gauge reaches zero to win the game. The various minigames that the player need to complete are:
 

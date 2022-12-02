@@ -9,6 +9,8 @@ Energy saver is a game about saving energy. The game is designed around the vari
 
 ## Gameplay
 
+## Map
+The map was created by using the GridMap system using assets taken from various sources(credits at the bottom).
 
 ### Player 
 Player can move around the room with WASD and interact with objects with left mouse click.
@@ -29,7 +31,7 @@ The player needs to complete various minigames before the energy gauge reaches z
 
 * Cook on the proper size stove top
 
-The assets for the minigaames were created by us.
+The assets for the minigames were created by us.
 
 ### Team
 Jana El Mouaied El Azm, Batul Iraki, Lucas Winter, Billy Julian Lesmana

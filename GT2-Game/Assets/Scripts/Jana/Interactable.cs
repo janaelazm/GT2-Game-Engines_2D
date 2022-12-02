@@ -6,7 +6,7 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
-    [SerializeField] private int miniGame_ID;
+    [SerializeField] private int miniGame_ID; //Id attached to minigame manager in inspector
     private MinigameManager _minigameManager;
     private Color oriColor;
 
@@ -18,6 +18,8 @@ public class Interactable : MonoBehaviour
         oriColor = _spriteRenderer.color;
     }
 
+    //highlight objects that contain minigames with yellow
+    //otherwise return to original color
     private void OnMouseEnter()
     {
         _spriteRenderer.color = Color.yellow;

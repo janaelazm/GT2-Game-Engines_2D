@@ -19,7 +19,7 @@ public class EnergyBar : MonoBehaviour
     void Start()
     {
         //set max energy value and set current energy to full
-        SetMaxEnergy(50000);
+        SetMaxEnergy(55000);
 
     }
 
@@ -69,6 +69,7 @@ public class EnergyBar : MonoBehaviour
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 
+    //called from minigame manager
     public void youWin()
     {
         currentEnergy = -1;

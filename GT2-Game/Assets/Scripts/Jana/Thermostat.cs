@@ -27,6 +27,7 @@ public class Thermostat : MonoBehaviour
         _minigameManager = FindObjectOfType<MinigameManager>();
     }
 
+    //Deal damage if degrees is more than 16C
     private void Update()
     {
         if (takeDamage)
@@ -41,6 +42,7 @@ public class Thermostat : MonoBehaviour
         }
     }
 
+    //reduce temp if bigger than zero
     private void DownClicked()
     {
         Debug.Log("clicked down");
@@ -51,6 +53,8 @@ public class Thermostat : MonoBehaviour
         }
     }
     
+    
+    //increase temp if smaller than 30
     private void UpClicked()
     {
         Debug.Log("clicked up");

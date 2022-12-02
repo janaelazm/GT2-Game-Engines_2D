@@ -36,7 +36,9 @@ public class MinigameManager : MonoBehaviour
             _energyBar.youWin();
         }
     }
-
+    
+    //completely activate games and close button
+    //used after start button is pushed
     private void EnableMinigame()
     {
         foreach (var t in minigames)
@@ -47,7 +49,9 @@ public class MinigameManager : MonoBehaviour
         FinishMinigames();
 
     }
-
+    
+    //completely deactivate games and close button
+    //disable all games before start is clicked to prevent damage to energy bar
     private void DisableMinigame()
     {
 
@@ -58,14 +62,17 @@ public class MinigameManager : MonoBehaviour
         closeButton.gameObject.SetActive(false);
     }
 
+    //will start game and prevent the minigame panel from affecting other panels
     public void StartMinigames(int id)
     {
+        //disable movment when minigame is opened
         _controller.DisableMovement();
         minigames[id].blocksRaycasts = true;
         minigames[id].alpha = 1;
         closeButton.gameObject.SetActive(true);
     }
 
+    //to close panel of minigame
     private void FinishMinigames()
     {
         for(int i = 0; i < minigames.Length; i++)
@@ -73,6 +80,8 @@ public class MinigameManager : MonoBehaviour
             minigames[i].blocksRaycasts = false;
             minigames[i].alpha = 0;
         }
+        
+        // to start player movement when minigame is finished
         _controller.EnableMovement();
         closeButton.gameObject.SetActive(false);
     }

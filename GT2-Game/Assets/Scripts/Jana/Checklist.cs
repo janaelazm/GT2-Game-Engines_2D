@@ -28,8 +28,7 @@ public class Checklist : MonoBehaviour
         {
             _text.text = "Memorize the tasks you have " + seconds + "s!!!";
         }
-
-        Destroy(gameObject, seconds);
+        
     }
     
     void Update()
@@ -57,6 +56,7 @@ public class Checklist : MonoBehaviour
         }
         else
         {
+            Destroy(gameObject, seconds);
             _closed += 1;
         }
     }

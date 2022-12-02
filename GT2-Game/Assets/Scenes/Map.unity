@@ -1270,6 +1270,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
+      propertyPath: ID
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: start
       value: 
       objectReference: {fileID: 1241008956}
@@ -1518,6 +1522,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
+      propertyPath: ID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: start
       value: 
       objectReference: {fileID: 1241008956}
@@ -1626,7 +1634,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miniGame_ID: 2
-  gameWon: 0
 --- !u!61 &248370010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1804,6 +1811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 841444525}
+  shirtSprite: {fileID: 0}
 --- !u!114 &312397862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,7 +2357,7 @@ MonoBehaviour:
   - {fileID: 173820856}
   closeButton: {fileID: 76982802}
   startGame: {fileID: 1241008956}
-  wonGames: 000000000000000000000000
+  wonGames: 00000000000000000000000000000000000000000000000000000000
 --- !u!225 &469068361
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2428,6 +2436,10 @@ PrefabInstance:
     - target: {fileID: 807040444413887668, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
+      propertyPath: ID
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: start
@@ -3944,7 +3956,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miniGame_ID: 1
-  gameWon: 0
 --- !u!61 &1030231848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5301,7 +5312,6 @@ MonoBehaviour:
   _rectTransformSlider: {fileID: 97584801}
   _rectTransformTarget: {fileID: 1333127332}
   takeDamage: 0
-  won: 0
 --- !u!114 &1477745915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6048,7 +6058,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miniGame_ID: 1
-  gameWon: 0
 --- !u!61 &1702129510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6335,6 +6344,10 @@ PrefabInstance:
     - target: {fileID: 807040444413887668, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
+      propertyPath: ID
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 807040444413887669, guid: 7e2a117ff15a014429b60c0dec425148, type: 3}
       propertyPath: start
@@ -7523,7 +7536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miniGame_ID: 0
-  gameWon: 0
 --- !u!212 &2094667984
 SpriteRenderer:
   m_ObjectHideFlags: 0

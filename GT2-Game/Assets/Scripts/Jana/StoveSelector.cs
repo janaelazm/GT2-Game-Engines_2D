@@ -15,14 +15,19 @@ public class StoveSelector : MonoBehaviour, IDropHandler
     //DragAndDrop is for the GameObject Pot
     [SerializeField] private Image stoveImage;
     [SerializeField] private DragAndDrop _DragAndDrop;
+    private MinigameManager _minigameManager;
     
+
     // to take damage to energy bar
      private EnergyBar _energyBar;
+     public bool takeDamage;
 
     private void Start()
     {
         //automatically assign the energy bar
         _energyBar = FindObjectOfType<EnergyBar>();
+        takeDamage = true;
+        _minigameManager = FindObjectOfType<MinigameManager>();
     }
 
     // Update is called once per frame
@@ -31,16 +36,27 @@ public class StoveSelector : MonoBehaviour, IDropHandler
         // check if pot is on top of current stove by comparing ideas and change color accordingly
         if (_DragAndDrop.potID == eyeID)
         {
-            GetComponent<Image>().color = new Color32(219, 149, 75, 255);
+            GetComponent<Image>().color = new Color32(204,57,31,255);
             if (_DragAndDrop.potID == 1 || _DragAndDrop.potID == 0)
             {
-                _energyBar.TakeDamage(1);
+                takeDamage = true;
             }
         }
 
         else
         {
             GetComponent<Image>().color = new Color32(59, 75, 75, 255);
+            if (_DragAndDrop.potID == 2 || _DragAndDrop.potID == 3)
+            {
+                takeDamage = false;
+                _minigameManager.wonGames[0] = 1;
+
+            }
+        }
+
+        if (takeDamage)
+        {
+            _energyBar.TakeDamage(1);
         }
     }
 

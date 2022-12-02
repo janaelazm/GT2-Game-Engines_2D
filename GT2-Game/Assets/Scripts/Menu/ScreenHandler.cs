@@ -21,7 +21,7 @@ public class ScreenHandler : StateHandler
     }   
 
     private void Awake() {
-
+        
         OnExit(MenuTransitions.MainMenuSelected);
                 
     } 

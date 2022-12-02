@@ -11,6 +11,8 @@ Energy saver is a game about saving energy. The game is designed around the vari
 ## Map
 The map was created by using the GridMap system using assets taken from various sources(credits at the bottom).
 
+![image](https://user-images.githubusercontent.com/63732813/205330479-5d52726a-ad18-4282-b5d7-d648e5c73d0d.png)
+
 ## Gameplay
 
 ### Player 

@@ -24,12 +24,15 @@ The energy gauge will decrease the longer the game goes on. The goal of the game
 The player needs to complete various minigames before the energy gauge reaches zero to win the game. The various minigames that the player need to complete are:
 
 * Turning off plug sockets
+* 
 ![image](https://user-images.githubusercontent.com/63732813/205300344-a54f82ba-c995-4691-89a6-540836fa6249.png)
 
 * Turning down the temperature of the heater & remove clothing item from the heater
+* 
 ![ezgif com-gif-maker_3](https://user-images.githubusercontent.com/63732813/205300262-d9071d30-545b-49f3-a4b9-16e6d876c50f.gif)
 
 * Cook on the proper size stove top
+* 
 ![image](https://user-images.githubusercontent.com/63732813/205300435-c4918e82-9a11-4086-a1a2-316337642cbe.png)
 
 The assets for the minigames were created by us.

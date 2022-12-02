@@ -19,14 +19,14 @@ public class EnergyBar : MonoBehaviour
     void Start()
     {
         //set max energy value and set current energy to full
-        SetMaxEnergy(55000);
+        SetMaxEnergy(50000);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentEnergy == 0)
+        if (currentEnergy <= 0 && currentEnergy!=-1)
         {
             Time.timeScale = 0;
             deathScreen.alpha = 1;

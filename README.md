@@ -25,7 +25,7 @@ The player needs to complete various minigames before the energy gauge reaches z
 
 * Turning off plug sockets
 
-![image](https://user-images.githubusercontent.com/63732813/205300344-a54f82ba-c995-4691-89a6-540836fa6249.png)
+![ezgif com-gif-maker_4](https://user-images.githubusercontent.com/63732813/205300742-b9fa30dc-04cf-4485-b23f-52744beb79b0.gif)
 
 * Turning down the temperature of the heater & remove clothing item from the heater
 
@@ -33,7 +33,8 @@ The player needs to complete various minigames before the energy gauge reaches z
 
 * Cook on the proper size stove top
 
-![image](https://user-images.githubusercontent.com/63732813/205300435-c4918e82-9a11-4086-a1a2-316337642cbe.png)
+![ezgif com-gif-maker_5](https://user-images.githubusercontent.com/63732813/205300679-00f4f4a8-5dc8-4777-89e4-2f7e1c954d44.gif)
+
 
 The assets for the minigames were created by us.
 

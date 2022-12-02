@@ -45,6 +45,7 @@ public class StoveSelector : MonoBehaviour, IDropHandler
 
         else
         {
+            //if pot is on top of a small oven eye stop damage
             GetComponent<Image>().color = new Color32(59, 75, 75, 255);
             if (_DragAndDrop.potID == 2 || _DragAndDrop.potID == 3)
             {

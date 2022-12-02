@@ -24,7 +24,7 @@ The player needs to complete various minigames before the energy gauge reaches z
 * 
 
 ### Team
-Jana, Batul Iraki, Lucas, Billy Julian Lesmana
+Jana El Mouaied El Azm, Batul Iraki, Lucas Winter, Billy Julian Lesmana
 
 ### Built With
 Software

@@ -11,10 +11,12 @@ public class PlayerController : MonoBehaviour
     private Transform playerTransform;
     private Vector2 movementInput;
     [SerializeField] private float movementSpeed;
+    private float saveSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
+        saveSpeed = movementSpeed;
         rb2 = GetComponent<Rigidbody2D>();
         playerTransform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
@@ -28,7 +30,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
         // flip player sprites when moving left or right
         if (movementInput.x < 0 )
         {
@@ -50,5 +51,15 @@ public class PlayerController : MonoBehaviour
     {
         rb2.velocity = movementInput * (movementSpeed * Time.deltaTime);
         
+    }
+
+    public void DisableMovement()
+    {
+        movementSpeed = 0;
+    }
+
+    public void EnableMovement()
+    {
+        movementSpeed = saveSpeed;
     }
 }

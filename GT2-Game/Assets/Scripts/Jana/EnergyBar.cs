@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,16 +10,16 @@ public class EnergyBar : MonoBehaviour
     // to change color of energy bar depending on points
     public Gradient gradient;
     [SerializeField] private Image fill;
-    [SerializeField] private DragAndDrop _dragAndDrop;
-
+    [SerializeField] private Button start;
     [SerializeField] private CanvasGroup deathScreen;
+    [SerializeField] private TextMeshProUGUI youWinText;
     public int currentEnergy;
 
     // Start is called before the first frame update
     void Start()
     {
         //set max energy value and set current energy to full
-        SetMaxEnergy(1000);
+        SetMaxEnergy(50000);
 
     }
 
@@ -27,13 +28,23 @@ public class EnergyBar : MonoBehaviour
     {
         if (currentEnergy == 0)
         {
-            Debug.Log("Game Over");
             Time.timeScale = 0;
             deathScreen.alpha = 1;
             deathScreen.interactable = true;
-            deathScreen.blocksRaycasts = true;  
-            
+            deathScreen.blocksRaycasts = true;
+
         }
+
+        //currentEnergy = -1 only when all games are won, use same screen as death but text is changed
+        if (currentEnergy == -1)
+        {
+            Time.timeScale = 0;
+            deathScreen.alpha = 1;
+            deathScreen.interactable = true;
+            deathScreen.blocksRaycasts = true;
+
+        }
+        
     }
 
     //Deduct energy points, called from minigames
@@ -56,5 +67,11 @@ public class EnergyBar : MonoBehaviour
     {
         slider.value = energy;
         fill.color = gradient.Evaluate(slider.normalizedValue);
+    }
+
+    public void youWin()
+    {
+        currentEnergy = -1;
+        youWinText.text = "YOU WON";
     }
 }

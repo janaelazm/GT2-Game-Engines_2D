@@ -16,8 +16,9 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         _rectTransform = GetComponent<RectTransform>();
         _canvasGroup = GetComponent<CanvasGroup>();
+        
         //So that the start position of the pot is bottom-right
-        _rectTransform.anchoredPosition = new Vector2((float) 107.05 , (float)-80.219);
+        _rectTransform.anchoredPosition = new Vector2((float) 87 , (float)96);
         potID = 1;
     }
 
@@ -41,6 +42,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("Click");
+        
         //Change position of pot with mouse
         _rectTransform.anchoredPosition += eventData.delta;
     }
